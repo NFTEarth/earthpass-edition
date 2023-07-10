@@ -4,8 +4,21 @@ As NFTEarth begins its Omnichain strategy to become the world's hub of NFT activ
 
 The token will be available for minting ONLY for a brief window of time.
 
+# Official zkSync Era NFT Contact Address: 
+
+0x9e7dc737043157fe421cb1eadd1d2055369c3b4a
+
 ![image](https://github.com/westonnelson/earthpass-edition/assets/29180454/fa94ab53-5379-47bb-8897-756bc401831d)
 
 The EarthPass Minting Site Preview: Providing our community with an opportunity to interact with zkSync and increase the chance of receiving an airdrop has been requested multiple times, here the team is delivering on that request.
 
-![image](https://github.com/NFTEarth/earthpass-edition/assets/29180454/480c5979-f214-405b-a59b-cbe63bc732a8)
+# Mint 
+
+https://earthpass.nftearth.exchange
+
+
+# View on Element Market:
+
+https://element.market/collections/earthpass-2023
+
+![image](https://github.com/NFTEarth/earthpass-edition/assets/29180454/32479823-032b-4353-93fe-d620b36a48a4)
