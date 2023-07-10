@@ -1,25 +1,26 @@
 import type { AppProps } from "next/app";
-import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
+import { ZksyncEra } from "@thirdweb-dev/chains";
+import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
 
 // This is the chain your dApp will work on.
-const activeChain = "mumbai";
+const activeChain = "ZksyncEra";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={activeChain}>
+    <ThirdwebProvider activeChain={ ZksyncEra }>
       <Head>
-        <title>thirdweb Edition Drop Minting Customizable Page</title>
+        <title>NFTEarth 2023 Edition NFT Drop on zkSync Era</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Learn How To Use Thirdweb's Edition Drop contract and create a customizable Edition Drop minting page"
+          content="A celebratory NFT drop for the NFTEarth 2023 Edition on zkSync Era."
         />
         <meta
           name="keywords"
-          content="Thirdweb, thirdweb Edition drop, how to make thirdweb nft drop, how to make nft collection thirdweb"
+          content="NFTs, Layer2, NFTEartht, NFTE"
         />
       </Head>
       <Component {...pageProps} />

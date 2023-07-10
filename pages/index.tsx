@@ -15,6 +15,8 @@ import { useMemo, useState } from "react";
 import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 import { myEditionDropContractAddress, tokenId } from "../const/yourDetails";
+import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { ZksyncEra } from "@thirdweb-dev/chains";
 
 const Home: NextPage = () => {
   const address = useAddress();
